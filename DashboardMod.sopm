@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+    <Name>DashboardMod</Name>
+    <Version>0.1.1</Version>
+    <Framework>3.2.x</Framework>
+    <Vendor>Daniel Obee 33achtzig</Vendor>
+    <URL>http://33achtzig.de/</URL>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <ChangeLog Version="0.0.1" Date="2013-02-15 16:17:51">New package for 3.2.x</ChangeLog>
+    <Description Lang="en">A modification for the Dashboard that adds owner information and lock state to the ticket display.</Description>
+    <Description Lang="de">Eine Dashboard Modifikation, die Besitzer und Sperrstatus zu jedem Ticket anzeigt.</Description>
+    <BuildDate>?</BuildDate>
+    <BuildHost>?</BuildHost>
+    <Filelist>
+        <File Permission="644" Location="Kernel/Output/HTML/DashboardTicketGeneric.pm"></File>
+        <File Permission="644" Location="Kernel/Output/HTML/Standard/AgentDashboardTicketGeneric.dtl"></File>
+        <File Permission="644" Location="var/httpd/htdocs/skins/Agent/default/img/ticketlock.png"></File>
+        <File Permission="644" Location="var/httpd/htdocs/skins/Agent/default/img/ticketunlock.gif"></File>
+    </Filelist>
+</otrs_package>
+        
