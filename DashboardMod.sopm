@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <otrs_package version="1.0">
     <Name>DashboardMod</Name>
-    <Version>0.1.1</Version>
+    <Version>0.2.0</Version>
     <Framework>3.2.x</Framework>
     <Vendor>Daniel Obee 33achtzig</Vendor>
     <URL>http://33achtzig.de/</URL>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <ChangeLog Version="0.2.0" Date="2013-10-10 10:06:23">Added missing lock state icons.</ChangeLog>
     <ChangeLog Version="0.0.1" Date="2013-02-15 16:17:51">New package for 3.2.x</ChangeLog>
     <Description Lang="en">A modification for the Dashboard that adds owner information and lock state to the ticket display.</Description>
     <Description Lang="de">Eine Dashboard Modifikation, die Besitzer und Sperrstatus zu jedem Ticket anzeigt.</Description>
